@@ -14,6 +14,19 @@ a {
 	text-decoration-thickness: 1px;
 }
 
+
+.image-container {
+	width: 100%; /* Set width of container */
+	height: 50%;
+	margin: 0 auto; /* Center the container horizontally */
+}
+
+	.image-container img {
+		width: 100%; /* Make the image fill its container */
+		height: 50%; /* Maintain aspect ratio */
+		display: block; /* Remove default inline behavior */
+	}
+
 #hobbiesH4 {
 	text-align: center;
 }
